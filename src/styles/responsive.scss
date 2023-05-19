@@ -1,0 +1,3367 @@
+@media only screen and (max-width: 1680px) {
+	.hero-image {
+		width: 650px;
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width: 1590px) {
+	.hero-image {
+		width: 595px;
+		height: 580px;
+	}
+}
+
+@media only screen and (max-width: 1540px) {
+	.hero-image {
+		width: 777px;
+		height: 743px;
+	}
+}
+
+@media only screen and (max-width: 1450px) {
+	.header-container,
+	.header-container-background {
+		width: 100%;
+		.container {
+			padding: 0 20px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+	}
+
+	.hero-image {
+		width: 777px;
+		height: 680px;
+	}
+
+	.benifits-section {
+		.benifit-icons-wrapper {
+			.benifits-icons {
+				margin-right: 70px;
+				&:nth-last-child(1) {
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.install-step {
+					.stepper-steps {
+						min-width: 630px;
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.play-step {
+				.stepper-steps {
+					min-width: 630px;
+				}
+			}
+		}
+	}
+
+	.mobile-image {
+		margin-left: 40px;
+	}
+
+	.winning-section {
+		.refer-earn {
+			p {
+				width: 50%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.top-banner-section .banner-image img {
+		width: calc(100% - 60px);
+	}
+	.footer-section {
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width: 1370px) {
+	.hero-image {
+		width: 777px;
+		height: 640px;
+	}
+
+	.benifits-section {
+		.icons-first-row {
+			margin-bottom: 60px;
+		}
+		.benifits-icons {
+			margin-right: 50px;
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 400px;
+		}
+	}
+
+	.install-step {
+		margin-left: 15px;
+	}
+
+	.mobile-image {
+		margin-left: 15px;
+	}
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.play-step {
+				.stepper-steps {
+					min-width: 580px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1340px) {
+	.benifits-section {
+		.benifit-icons-wrapper {
+			.benifits-icons {
+				margin-right: 35px;
+				&:nth-last-child(1) {
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.install-step {
+					.stepper-steps {
+						min-width: 610px;
+					}
+				}
+			}
+		}
+	}
+	.winning-section {
+		flex-direction: column;
+		.refer-earn {
+			width: 100%;
+			margin-right: 0px;
+			.refer-image {
+				width: 100%;
+			}
+		}
+		.withdrow {
+			border-radius: 30px;
+			min-height: 237px;
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
+	.hero-image {
+		width: 777px;
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.footer-section {
+		.link-title {
+			font-size: 20px;
+		}
+		.footer-input {
+			width: 350px;
+		}
+	}
+
+	.banner-contant {
+		h2 {
+			font-size: 35px;
+		}
+		h1 {
+			font-size: 55px;
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.install-step {
+					.stepper-steps {
+						min-width: 570px;
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.mobile-image-wrapper {
+			.mobile-image {
+				.bg-circle {
+					width: 400px;
+					height: 400px;
+
+					.mobile {
+						margin-top: -75px;
+					}
+				}
+				.slick-slider {
+					.slick-list {
+						top: -464px;
+						right: -139px;
+					}
+				}
+			}
+		}
+		.play-step-wrapper {
+			.play-step {
+				.stepper-steps {
+					min-width: 570px;
+				}
+			}
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 390px;
+		}
+	}
+
+	.hero-image {
+		width: 777px;
+		height: 580px;
+	}
+}
+
+@media only screen and (max-width: 1250px) {
+	.top-banner-section {
+		.banner-contant {
+			h3 {
+				font-size: 30px;
+			}
+			h1 {
+				font-size: 50px;
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.install-step {
+					.stepper-steps {
+						min-width: 540px;
+					}
+				}
+			}
+		}
+	}
+	.icon-wrapper {
+		width: 75px;
+		height: 75px;
+
+		.banktransfer,
+		.upi {
+			width: 50%;
+		}
+	}
+
+	.benifits-section {
+		.benifits-icons {
+			margin-right: 38px;
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 370px;
+		}
+	}
+
+	.refer-earn {
+		p {
+			font-size: 23px;
+		}
+	}
+
+	.hero-image {
+		width: 680px;
+	}
+
+	.refer-earn-step-wrapper {
+		.step-card {
+			p {
+				line-height: 20px;
+			}
+			&:nth-child(2),
+			&:first-child {
+				margin-right: 30px;
+			}
+
+			.step-img {
+				height: 500px;
+				width: 250px;
+			}
+		}
+		.winning-section {
+			.withdrow {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding: 0;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.top-banner-section {
+		.banner-contant {
+			input {
+				width: 300px;
+			}
+		}
+	}
+
+	.footer-section {
+		.footer-top-wrapper {
+			.payment-wrapper {
+				.payment {
+					width: 100%;
+					justify-content: center;
+					.icon-wrapper {
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-wrapper {
+					gap: 55px;
+
+					.stepper-item {
+						&::after {
+							width: 620px;
+							left: -234px;
+							top: 343px;
+						}
+					}
+
+					.play-stepper-item {
+						&::after {
+							width: 500px;
+							top: 366px;
+							left: -173px;
+						}
+					}
+				}
+				.install-step {
+					.stepper-steps {
+						min-width: 500px;
+					}
+				}
+			}
+		}
+		.mobile-image-wrapper {
+			.mobile-image {
+				.bg-circle {
+					width: 400px;
+					height: 400px;
+					margin-top: 103px;
+					.mobile {
+						margin-top: -107px;
+					}
+				}
+				.slick-slider {
+					.slick-list {
+						top: -571px;
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.play-step {
+				.stepper-steps {
+					min-width: 500px;
+				}
+			}
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 350px;
+		}
+	}
+
+	.refer-earn {
+		p {
+			padding-top: 25px;
+		}
+	}
+
+	.benifits-section {
+		.benifits-icons {
+			width: 160px;
+			height: 160px;
+		}
+	}
+
+	.hero-image {
+		width: 600px;
+		height: 500px;
+	}
+	.footer-sms-link {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-btn-margin {
+		margin-top: 10px;
+	}
+	.top-banner-section .banner-image img {
+		width: calc(100% - 10px);
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	.banner-contant {
+		h2 {
+			font-size: 30px;
+		}
+		h1 {
+			font-size: 40px;
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-item {
+					&::after {
+						width: 580px;
+						left: -214px;
+						top: 320px;
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.play-step {
+				.stepper-steps {
+					min-width: 450px;
+				}
+			}
+		}
+		.play-stepper-item {
+			&::after {
+				width: 450px;
+				left: -149px;
+				top: 354px;
+			}
+		}
+	}
+
+	.winning-section {
+		.refer-earn {
+			p {
+				padding-top: 15px;
+			}
+		}
+		.withdrow {
+			h1 {
+				font-size: 30px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1120px) {
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.stepper-wrapper {
+				.second-play-step {
+					margin-top: -35px;
+				}
+				.third-play-step {
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1105px) {
+	.stepper-item {
+		.completed {
+			&::after {
+				width: 475px;
+				top: 258px;
+				left: -170px;
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-play-wrapper {
+			.mobile-image-wrapper {
+				.mobile-image {
+					.download-app-img {
+						img {
+							width: 217px;
+							height: 469px;
+						}
+					}
+					.slick-slider {
+						.slick-list {
+							width: 217px;
+							height: 469px;
+							top: -594px;
+							right: -103px;
+						}
+					}
+				}
+			}
+			.play-step-wrapper {
+				.play-step {
+					.stepper-steps {
+						.stepper-steps-content {
+							padding: 15px 0;
+						}
+					}
+				}
+			}
+			.play-stepper-item {
+				&::after {
+					width: 480px;
+					left: -163px;
+					top: 350px;
+				}
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.stepper-item {
+						svg {
+							margin-left: 10px;
+						}
+						&::after {
+							width: 589px;
+							left: -228px;
+							top: 337px;
+						}
+					}
+				}
+			}
+			.btn-border {
+				margin-top: 0px;
+			}
+		}
+	}
+
+	.benifits-section {
+		.benifit-icons-wrapper {
+			.benifits-icons {
+				margin-right: 20px;
+			}
+		}
+		.icons-first-row {
+			margin-bottom: 30px;
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 340px;
+		}
+	}
+
+	.icon-wrapper {
+		width: 60px;
+		height: 60px;
+	}
+	.winning-section {
+		.withdrow {
+			min-height: 200px;
+			.payment-wrapper {
+				padding-top: 20px;
+				.payment-icon {
+					p {
+						font-size: 18px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1070px) {
+	.how-to-play-wrapper {
+		.mobile-image-wrapper {
+			.mobile-image {
+				.slick-slider {
+					.slick-list {
+						width: 250px;
+						top: -423px;
+						right: -125px;
+					}
+				}
+
+				.download-app-img {
+					.play-download-img {
+						width: 250px;
+					}
+				}
+				.bg-circle {
+					width: 350px;
+					height: 350px;
+
+					.mobile {
+						width: 270px;
+						margin-top: -114px;
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.install-step {
+					.stepper-steps {
+						min-width: 470px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.top-banner-section {
+		.banner-contant {
+			input {
+				width: 200px;
+			}
+		}
+	}
+	.footer-section {
+		.footer-input {
+			width: 200px;
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 310px;
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.install-step {
+					.stepper-steps {
+						min-width: 430px;
+					}
+				}
+			}
+		}
+	}
+
+	.winning-section {
+		h1 {
+			font-size: 33px;
+		}
+	}
+
+	.benifits-section {
+		padding: 30px 30px 40px;
+		.benifits-icons {
+			width: 140px;
+		}
+	}
+
+	.top-banner-section .banner-image img {
+		width: calc(100% + 15px);
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width: 1036px) {
+	.header-container-background {
+		padding: 0x 20px !important;
+	}
+	.stepper-item {
+		.completed {
+			&::after {
+				width: 456px;
+				top: 230px;
+				left: -162px;
+			}
+		}
+	}
+
+	.top-banner-section {
+		.banner-contant {
+			h1 {
+				font-size: 45px;
+			}
+			h2 {
+				font-size: 28px;
+			}
+
+			.refer-description {
+				font-size: 45px;
+			}
+		}
+	}
+
+	.hero-image {
+		width: 515px;
+		height: 530px;
+	}
+
+	.upcomming-section,
+	.how-to-install-section,
+	.deposit-winning-section,
+	.faqs-section {
+		h1 {
+			font-size: 45px;
+		}
+	}
+}
+
+@media only screen and (max-width: 1010px) {
+	.about-wrapper {
+		.about-content {
+			font-size: 19px;
+		}
+		.goal {
+			.goal-title {
+				font-size: 36px;
+			}
+		}
+	}
+
+	.footer-section {
+		.app-link-wrapper {
+			flex-direction: column;
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 290px;
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.install-step {
+					p {
+						margin-bottom: 15px;
+						line-height: 25px;
+					}
+					.stepper-steps {
+						margin-bottom: 35px;
+					}
+				}
+				.stepper-wrapper {
+					.secondstep {
+						margin-top: 18px;
+					}
+					.thirdstep {
+						margin-top: 5px;
+					}
+					.fourthstep {
+						margin-bottom: 50px;
+					}
+				}
+			}
+		}
+
+		.mobile-image-wrapper {
+			.mobile-image {
+				justify-content: space-around;
+				.bg-circle {
+					width: 350px;
+					height: 350px;
+					.mobile {
+						width: 230px;
+						margin-top: -136px;
+					}
+				}
+				.slick-slider {
+					.slick-list {
+						width: 213px;
+						height: 458px;
+						top: -486px;
+						right: -106px;
+						border-radius: 20px;
+					}
+					.download-step {
+						.download-image {
+							width: 213px;
+							height: 458px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.play-step {
+				.stepper-steps {
+					min-width: 400px;
+				}
+			}
+		}
+		.play-stepper-item {
+			&::after {
+				width: 520px;
+				left: -183px;
+				top: 355px;
+			}
+		}
+	}
+
+	.hero-image {
+		height: 450px;
+	}
+
+	.refer-earn-step-wrapper {
+		.step-card {
+			padding: 0 20px 20px;
+			p {
+				font-size: 14px;
+			}
+			.step-img {
+				height: 350px;
+				width: 180px;
+			}
+		}
+
+		.svg-width {
+			width: 30px;
+			height: 60px;
+		}
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.how-to-install-section {
+		.mobile-image-wrapper {
+			.mobile-image {
+				.bg-circle {
+					width: 320px;
+				}
+			}
+		}
+	}
+
+	.winning-section {
+		.withdrow {
+			min-height: 100%;
+			padding: 5px 0;
+		}
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	.how-to-play-wrapper {
+		.mobile-image-wrapper {
+			.mobile-image {
+				.bg-circle {
+					width: 330px;
+					height: 330px;
+
+					.mobile {
+						margin-top: -144px;
+					}
+				}
+				.slick-slider {
+					.slick-list {
+						top: -433px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	.top-banner-section {
+		.btn-border {
+			width: 245px;
+		}
+		.download-button {
+			font-size: 22px;
+			width: 245px;
+		}
+		.banner-contant {
+			h3 {
+				font-size: 27px;
+			}
+			h1 {
+				font-size: 40px;
+			}
+		}
+	}
+
+	.contact-us-wrapper {
+		flex-direction: column;
+		margin-top: 70px;
+		margin-bottom: 70px;
+
+		.address-detail-wrapper {
+			width: 100%;
+		}
+		.form-wrapper {
+			width: 100%;
+			max-width: 687px;
+			margin: 0 auto;
+		}
+	}
+
+	.mobile-image {
+		.mobile {
+			width: 290px;
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.stepper-item {
+						svg {
+							margin-left: 10px !important;
+						}
+						&::after {
+							width: 590px;
+							top: 329px;
+							left: -229px;
+						}
+					}
+				}
+			}
+		}
+		.btn-border {
+			width: 245px;
+		}
+		.download-button {
+			font-size: 22px;
+			width: 245px;
+		}
+
+		.mobile-image-wrapper {
+			.mobile-image {
+				.bg-circle {
+					width: 280px;
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.play-step {
+				.stepper-steps {
+					min-width: 350px;
+				}
+			}
+		}
+		.play-stepper-item {
+			svg {
+				margin-left: 10px;
+			}
+			&::after {
+				left: -193px;
+				top: 360px;
+			}
+		}
+	}
+
+	.benifits-section {
+		.icons-first-row {
+			margin-bottom: 15px;
+		}
+		.benifit-icons-wrapper {
+			.benifits-icons {
+				margin-right: 20px;
+			}
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 270px;
+		}
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.header-section {
+		padding-top: 10px;
+		.header-items {
+			display: none;
+		}
+		.hamburger-icon {
+			display: block !important;
+		}
+		.header-btn .header-ios-btn {
+			display: none;
+		}
+
+		// a {
+		// 	padding-top: 10px;
+		// }
+	}
+
+	.terms-condition-wrapper {
+		.terms-wrapper {
+			h2 {
+				font-size: 22px;
+			}
+		}
+	}
+
+	.about-wrapper {
+		.goal {
+			padding: 30px;
+		}
+	}
+
+	.how-to-install-section {
+		h1 {
+			font-size: 25px;
+		}
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.install-step {
+					h5 {
+						font-size: 22px;
+					}
+					p {
+						font-size: 14px;
+					}
+
+					.stepper-steps {
+						min-width: 300px;
+						min-height: 120px;
+
+						p {
+							margin: 5px;
+						}
+						&:nth-last-child(1) {
+							margin-bottom: 0px;
+						}
+					}
+				}
+				.stepper-wrapper {
+					.stepper-item {
+						&::after {
+							width: 454px;
+							top: 265px;
+							left: -161px;
+						}
+					}
+					.secondstep {
+						margin-top: 19px;
+					}
+					.thirdstep {
+						margin-top: 2px;
+					}
+					.fourthstep {
+						margin-bottom: 12px;
+					}
+				}
+			}
+			.mobile-image-wrapper {
+				.mobile-image {
+					.bg-circle {
+						margin-top: 47px;
+						.mobile {
+							margin-top: -136px;
+						}
+					}
+					.slick-slider {
+						.slick-list {
+							top: -446px;
+						}
+					}
+				}
+			}
+		}
+		.btn-border {
+			width: 220px;
+			height: 50px;
+		}
+		.download-btn {
+			width: 220px;
+			height: 50px;
+			font-size: 18px;
+			justify-content: space-evenly;
+		}
+		.download-animation {
+			width: 50px;
+			height: 45px;
+		}
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.ml-45 {
+				margin-left: 20px;
+			}
+		}
+		.mobile-image-wrapper {
+			.mobile-image {
+				margin-left: 5px;
+
+				.bg-circle {
+					.mobile {
+						margin-top: -146px;
+					}
+				}
+
+				.slick-slider {
+					.slick-list {
+						top: -435px;
+					}
+				}
+			}
+		}
+		.play-step-wrapper {
+			.stepper-wrapper {
+				.first-play-step {
+					margin-top: -46px;
+				}
+				.second-play-step {
+					margin-bottom: 165px;
+				}
+				.third-play-step {
+					margin-top: -180px;
+				}
+			}
+			.play-step {
+				.stepper-steps {
+					min-width: 320px;
+					margin-bottom: 15px;
+					margin-top: 15px;
+				}
+			}
+		}
+		.play-stepper-item {
+			svg {
+				margin-left: 10px;
+			}
+			&::after {
+				width: 480px;
+				left: -173px;
+				top: 326px;
+			}
+		}
+	}
+
+	.benifits-section {
+		h1 {
+			margin-bottom: 27px;
+			font-size: 25px;
+		}
+		.benifits-icons {
+			width: 115px;
+			height: 145px;
+		}
+		.icons-first-row {
+			margin-bottom: 0px;
+		}
+	}
+
+	.top-banner-section {
+		.banner-contant {
+			h2 {
+				margin-bottom: 0px;
+			}
+
+			.refer-description {
+				font-size: 35px;
+				line-height: 40px;
+			}
+
+			.bonus-text {
+				margin-top: 30px;
+			}
+		}
+		.btn-border {
+			margin-top: 20px;
+			margin-bottom: 27px;
+			width: 220px;
+			height: 50px;
+		}
+		.download-btn {
+			width: 200px;
+			height: 60px;
+			font-size: 18px;
+			justify-content: space-evenly;
+			margin-right: 30px;
+		}
+		.download-animation {
+			width: 50px;
+			height: 45px;
+		}
+	}
+
+	.icon-wrapper {
+		width: 45px;
+		height: 45px;
+	}
+
+	.winning-section {
+		.withdrow {
+			border-radius: 20px;
+			h1 {
+				font-size: 26px;
+			}
+			.payment-wrapper {
+				.payment-icon {
+					p {
+						padding-top: 8px;
+					}
+				}
+			}
+		}
+		.refer-earn {
+			p {
+				font-size: 16px;
+				line-height: 28px;
+			}
+		}
+	}
+
+	.payment-wrapper {
+		.slick-slider {
+			button {
+				// display: none !important;
+			}
+		}
+	}
+
+	.upcomming-section {
+		h1 {
+			font-size: 25px;
+		}
+		.game-image {
+			width: 235px;
+		}
+	}
+
+	.hero-image {
+		height: 350px;
+	}
+
+	.deposit-winning-section {
+		h1 {
+			font-size: 25px;
+		}
+	}
+	.faqs-section {
+		h1 {
+			font-size: 25px;
+		}
+	}
+}
+
+@media only screen and (max-width: 878px) {
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.mobile-image-wrapper {
+				.mobile-image {
+					.bg-circle {
+						width: 290px;
+						height: 300px;
+						.mobile {
+							margin-top: -154px;
+						}
+					}
+					.slick-slider {
+						.slick-list {
+							top: -432px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.top-banner-section {
+		.banner-contant {
+			h2 {
+				font-size: 25px;
+			}
+			h1 {
+				font-size: 35px;
+			}
+			.bonus-text {
+				font-size: 18px;
+			}
+		}
+		.download-btn {
+			width: 180px;
+			margin-top: 9px;
+		}
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.mobile-image-wrapper {
+				.mobile-image {
+					.bg-circle {
+						width: 290px;
+						height: 300px;
+						.mobile {
+							margin-top: -154px;
+						}
+					}
+					.slick-slider {
+						.slick-list {
+							top: -431px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.top-banner-section .banner-image img {
+		width: calc(100% + 6px);
+		height: 450px;
+	}
+}
+
+@media only screen and (max-width: 827px) {
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.mobile-image-wrapper {
+				.mobile-image {
+					.slick-slider {
+						.slick-list {
+							top: -441px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 825px) {
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.stepper-wrapper {
+				gap: 15px;
+
+				.first-play-step {
+					margin-top: -20px;
+				}
+				.second-play-step {
+					margin-bottom: 190px;
+				}
+				.third-play-step {
+					margin-bottom: 40px;
+				}
+			}
+		}
+		.mobile-image-wrapper {
+			.mobile-image {
+				.slick-slider {
+					.slick-list {
+						width: 212px;
+						top: -368px;
+						right: -106px;
+					}
+				}
+				.bg-circle {
+					width: 280px;
+					height: 280px;
+					.mobile {
+						width: 230px;
+						margin-top: -170px;
+					}
+				}
+				.download-app-img {
+					.play-download-img {
+						width: 212px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 809px) {
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.mobile-image-wrapper {
+				.mobile-image {
+					.slick-slider {
+						.slick-list {
+							top: -439px;
+						}
+					}
+				}
+			}
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.secondstep {
+						margin-top: -12px;
+					}
+					.thirdstep {
+						margin-top: 4px;
+					}
+					.fourthstep {
+						margin-bottom: 3px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 796px) {
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.mobile-image-wrapper {
+				.mobile-image {
+					.slick-slider {
+						.slick-list {
+							top: -447px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 784px) {
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.mobile-image-wrapper {
+				.mobile-image {
+					.slick-slider {
+						.slick-list {
+							top: -455px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 778px) {
+	.contact-us-wrapper {
+		.form-wrapper {
+			max-width: 600px;
+		}
+	}
+
+	.winning-section {
+		.refer-earn {
+			p {
+				line-height: 22px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.how-to-install-section .how-to-install-wrapper .install-step-wrapper .install-step {
+		// flex-direction: row;
+	}
+	.header-container {
+		.container {
+			// padding: 0;
+		}
+	}
+
+	.how-to-install-section {
+		margin-top: 30px;
+		h1 {
+			margin-bottom: 20px;
+		}
+		.how-to-install-wrapper {
+			flex-direction: column;
+			margin-bottom: 0px;
+			.install-step-wrapper {
+				flex-direction: column;
+				margin-bottom: 0px;
+				.stepper-wrapper {
+					z-index: 0;
+					flex-direction: row;
+					gap: 15px;
+					.stepper-item {
+						flex-direction: column;
+
+						&::after {
+							transform: rotate(0deg);
+							top: 21px;
+							left: 34px;
+							width: 530px;
+						}
+						svg {
+							margin: 0px 0px 12px 0px;
+						}
+						.step-name {
+							font-size: 25px;
+						}
+					}
+					.secondstep,
+					.thirdstep,
+					.fourthstep {
+						margin: 0px;
+					}
+				}
+
+				.install-step {
+					margin-left: 20px !important;
+					h5 {
+						font-size: 25px;
+					}
+					p {
+						font-size: 16px;
+					}
+
+					.stepper-steps {
+						background-color: #1c1c1c;
+						margin-top: 15px;
+						padding: 15px 15px 30px;
+						width: calc(100% - 50px) !important;
+						height: 160px;
+						border-radius: 30px;
+						min-width: auto;
+
+						.stepper-steps-content {
+							text-align: start;
+						}
+
+						.install-step-img {
+							margin-right: 20px;
+						}
+					}
+				}
+			}
+
+			.mobile-image-wrapper {
+				.mobile-image {
+					.bg-circle {
+						width: 450px;
+						height: 450px;
+						margin-top: 103px;
+						.mobile {
+							width: 313px;
+							margin-top: -100px;
+						}
+					}
+					.slick-slider {
+						.slick-list {
+							width: 278px;
+							height: 602px;
+							top: -540px;
+							right: -139px;
+						}
+						.download-step {
+							.download-image {
+								width: 280px;
+								height: auto;
+							}
+						}
+					}
+				}
+			}
+
+			.how-to-install-img-wrapper {
+				width: 100%;
+				margin-top: 0px;
+			}
+
+			.download-btn {
+				display: none;
+			}
+
+			.slick-slider {
+				display: block !important;
+			}
+
+			.slick-prev,
+			.slick-next {
+				display: none !important;
+			}
+		}
+
+		.mobile-image-wrapper {
+			width: 100%;
+			.mobile-image {
+				margin: 40px 0px 0px 0px;
+
+				.bg-circle {
+					width: 350px;
+					height: 350px;
+				}
+				.slick-slider {
+					.slick-list {
+						width: 234px;
+						height: 510px;
+						top: -608px;
+						right: -111px;
+						border-radius: 30px;
+					}
+					.download-step {
+						.download-image {
+							width: 234px;
+							height: 510px;
+							border-radius: 30px;
+						}
+					}
+				}
+				.mobile {
+					width: 230px;
+					margin-top: -110px;
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		flex-direction: column;
+		margin-bottom: 160px;
+
+		.mobile-image-wrapper {
+			width: 100%;
+
+			.mobile-image {
+				margin: 25px 0px 0px 0px;
+				.download-app-img {
+					.play-download-img {
+						width: 280px;
+					}
+				}
+
+				.bg-circle {
+					width: 450px;
+					height: 450px;
+					margin-top: 103px;
+
+					.mobile {
+						width: 313px;
+						margin-top: -79px;
+					}
+				}
+
+				.slick-slider {
+					.slick-list {
+						width: 279px;
+						top: -518px;
+						right: -140px;
+					}
+				}
+			}
+		}
+		.play-step-wrapper {
+			flex-direction: column;
+			.stepper-wrapper {
+				flex-direction: row;
+				gap: 15px;
+
+				.first-play-step,
+				.second-play-step,
+				.third-play-step {
+					margin: 0px;
+				}
+
+				.play-stepper-item {
+					flex-direction: column;
+					&::after {
+						transform: rotate(0deg);
+						top: 21px;
+						left: 120px;
+						width: 450px;
+					}
+					svg {
+						margin: 0px 0px 12px 0px;
+						z-index: 1111;
+						rect {
+							&:nth-child(2) {
+								fill: #444444;
+								&:active {
+									fill: rgb(235, 60, 91);
+								}
+							}
+						}
+					}
+					.step-name {
+						font-size: 25px;
+					}
+				}
+			}
+			.play-step {
+				margin-left: 0px;
+				h5 {
+					font-size: 25px;
+				}
+				p {
+					font-size: 16px;
+				}
+
+				.stepper-steps {
+					width: calc(100% - 50px) !important;
+					padding: 15px;
+					height: 220px;
+					border-radius: 20px;
+					margin-left: 10px;
+					min-width: auto;
+					.stepper-steps-content {
+						padding: 0;
+					}
+					img {
+						padding-right: 20px;
+						margin-left: 20px;
+					}
+				}
+			}
+
+			.download-btn {
+				display: none;
+			}
+
+			.slick-slider {
+				display: block !important;
+			}
+
+			.slick-prev,
+			.slick-next {
+				display: none !important;
+			}
+		}
+	}
+
+	.contact-us-wrapper {
+		.address-detail-wrapper {
+			margin: 0 auto;
+			max-width: 595px;
+		}
+		.form-wrapper {
+			border-radius: 20px;
+		}
+	}
+
+	.footer-section {
+		.footer-top-wrapper {
+			flex-direction: column;
+			padding-top: 30px;
+			.payment-wrapper {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				.payment {
+					.icon-wrapper {
+						img {
+							width: 200px;
+							height: 90px;
+						}
+					}
+					.cash-payment {
+						width: 110px !important;
+						margin-top: unset;
+					}
+				}
+				p {
+					margin-bottom: 48px;
+					margin-top: 43px;
+				}
+			}
+			.policy-wrapper {
+				width: 100%;
+				flex-direction: row;
+				justify-content: space-evenly;
+				margin-top: 40px;
+				padding-left: 10px;
+				padding-right: 10px;
+				box-sizing: border-box;
+
+				p {
+					margin-bottom: 24px;
+				}
+				ul {
+					li {
+						margin-bottom: 15px;
+					}
+				}
+			}
+
+			.social-icon-wrapper {
+				text-align: center;
+				.social-icon {
+					margin-top: 21px;
+					justify-content: center;
+					.social-media--icon {
+						margin: 0px 5px;
+					}
+				}
+			}
+		}
+
+		.app-link-wrapper {
+			flex-direction: column;
+		}
+
+		.footer-bottom-wrapper {
+			display: block;
+			text-align: center;
+			letter-spacing: 0.03em;
+			margin-top: 25px;
+			p {
+				margin-bottom: 34px;
+				margin-left: 0;
+			}
+			.address {
+				padding: 0 30px;
+			}
+			.company-name {
+				margin-left: 0px !important;
+				display: block;
+				text-align: center;
+			}
+		}
+
+		.copyright-text {
+			padding-bottom: 95px;
+		}
+	}
+
+	.deposit-winning-section {
+		background: #1c1c1c;
+		height: 300px;
+		border-radius: 20px;
+		margin-top: 140px;
+
+		h1 {
+			margin-bottom: 35px;
+		}
+		.payment-wrapper {
+			.payment-icon {
+				width: 145px;
+				text-align: center;
+				display: flex !important;
+				.icon-wrapper {
+					width: 80px;
+					height: 80px;
+				}
+			}
+			p {
+				font-size: 18px;
+			}
+			.slick-slider {
+				.slick-dots {
+					top: 170px;
+					li {
+						background-color: #8d8d8d;
+						opacity: 0.25;
+						border-radius: 50%;
+						width: 12px;
+						height: 12px;
+					}
+					.slick-active {
+						background-color: #8d8d8d;
+						opacity: 0.75;
+						border-radius: 50%;
+						width: 15px;
+						height: 15px;
+					}
+				}
+			}
+		}
+	}
+
+	.about-wrapper {
+		.about-content {
+			line-height: 35px;
+			font-size: 18px;
+		}
+		.our-goal {
+			flex-direction: column;
+			:first-child {
+				margin-bottom: 30px;
+			}
+			.goal {
+				margin-right: 0px;
+				width: 100%;
+				padding: 0px;
+
+				.goal-title {
+					padding: 30px 0px 0px 30px;
+					font-size: 30px;
+				}
+				p {
+					max-width: calc(100% - 30px);
+					padding: 0px 30px 30px;
+					line-height: 30px;
+				}
+			}
+		}
+		.core-value-wrapper {
+			margin-top: 80px;
+			line-height: 30px;
+			h3 {
+				font-size: 20px;
+			}
+		}
+	}
+
+	.refund-title {
+		font-size: 50px;
+	}
+
+	.terms-condition-wrapper {
+		.terms-wrapper {
+			h2 {
+				font-size: 16px;
+				line-height: 30px;
+			}
+			p {
+				font-size: 16px;
+			}
+		}
+	}
+
+	.hero-image {
+		left: 240px;
+		width: 460px;
+		height: 707px;
+		top: 135px;
+	}
+
+	.top-banner-section {
+		margin-top: 30px;
+		flex-direction: column;
+		text-align: center;
+		.banner-contant {
+			width: 100%;
+			align-items: center;
+			h2 {
+				font-size: 28px;
+				line-height: 35px;
+			}
+			h1 {
+				font-size: 35px;
+			}
+
+			.refer-description {
+				max-width: 500px;
+			}
+		}
+		.banner-image {
+			width: 100%;
+			margin-top: 50px;
+			height: 410px;
+			img {
+				max-width: 625px;
+				margin-left: -20px;
+			}
+		}
+
+		.button-wrapper {
+			margin: 0 auto;
+		}
+	}
+
+	.benifits-section {
+		margin-bottom: 30px;
+		border-radius: 20px;
+		.benifit-icons-wrapper {
+			.benifits-icons {
+				width: 100px;
+				height: 100px;
+				margin: 0 10px !important;
+				&:nth-child(1) {
+					margin: 0 10px !important;
+				}
+			}
+		}
+		.payment-wrapper {
+			flex-wrap: nowrap;
+			flex-direction: column;
+		}
+	}
+
+	.benifit-icons-wrapper {
+		.slick-slider {
+			width: 500px;
+			.slick-next,
+			.slick-prev {
+				display: none !important;
+			}
+			.slick-dots {
+				.slick-active {
+					button {
+						&::before {
+							color: #8d8d8d;
+							font-size: 20px !important;
+						}
+					}
+				}
+				li {
+					button {
+						&::before {
+							color: #8d8d8d;
+							font-size: 12px !important;
+						}
+					}
+				}
+			}
+		}
+		.icons-first-row {
+			display: flex !important;
+			justify-content: center;
+			flex-wrap: wrap;
+			max-width: 300px;
+			margin: 0 auto;
+			.benifits-icons {
+				margin-right: 20px;
+			}
+		}
+	}
+
+	.winning-section {
+		flex-direction: column;
+		.refer-earn {
+			width: 100%;
+			padding: 12px 0px 0px 0px;
+			border-radius: 20px;
+			margin: 0;
+			.refer-image {
+				width: 100%;
+			}
+			h1 {
+				text-align: center;
+			}
+
+			p {
+				padding-left: 15px;
+				width: 50%;
+				font-size: 18px;
+				line-height: 33px;
+				padding-top: 35px;
+			}
+		}
+		.withdrow {
+			border-radius: 30px;
+			min-height: 237px;
+			width: 100%;
+			margin-top: 20px;
+			h1 {
+				font-size: 40px;
+			}
+			.payment-wrapper {
+				padding-top: 20px;
+				.icon-wrapper {
+					width: 70px;
+					height: 70px;
+					.upi,
+					.banktransfer {
+						width: 80%;
+					}
+				}
+			}
+		}
+	}
+
+	.payment-icon {
+		p {
+			font-size: 20px;
+		}
+	}
+
+	.upcomming-section {
+		.upcoming--title {
+			margin-bottom: 35px;
+		}
+		.slick-slider {
+			.slick-list {
+				padding-left: 0px !important;
+			}
+		}
+		.game-image {
+			width: 320px;
+		}
+	}
+
+	.install-step {
+		margin-top: 15px;
+	}
+
+	.refer-earn-step-wrapper {
+		flex-wrap: wrap;
+		.step-card {
+			width: 35%;
+			&:nth-child(2) {
+				margin-right: 0px;
+			}
+			&:last-child {
+				margin-top: 40px;
+			}
+		}
+	}
+	.footer-sms-link {
+		flex-direction: column;
+	}
+	.sms-input {
+		margin: 0px;
+	}
+	.footer-download-btn {
+		align-items: center;
+	}
+	.top-banner-section {
+		padding-top: 0px;
+		.banner-contant {
+			.font-size-50 {
+				font-size: 40px;
+			}
+		}
+	}
+	.about-game {
+		.font-size-35 {
+			font-size: 25px;
+		}
+		.font-size-22 {
+			font-size: 16px;
+		}
+		.line-height-40 {
+			line-height: 30px;
+		}
+	}
+	.font-size-30 {
+		font-size: 20px;
+	}
+	.font-size-20 {
+		font-size: 15px;
+	}
+	.ml-40 {
+		margin-left: 25px;
+	}
+	.line-height-45 {
+		line-height: 35px;
+	}
+	.header-btn-display-none {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.hero-image {
+		left: 195px;
+		height: 655px;
+		top: 174px;
+	}
+
+	.contact-us-wrapper {
+		.form-wrapper {
+			max-width: 500px;
+		}
+	}
+
+	.stepper-item.completed::after {
+		width: 559px;
+		top: 295px;
+		left: -214px;
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 270px;
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.stepper-item {
+						&::after {
+							width: 475px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.stepper-wrapper {
+				.play-stepper-item {
+					&::after {
+						left: 115px;
+						width: 370px;
+					}
+				}
+			}
+		}
+	}
+
+	.footer-sms-flex-wrap {
+		flex-wrap: wrap;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.stepper-item {
+						&::after {
+							width: 435px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.hero-image {
+		left: 165px;
+		height: 675px;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.hero-image {
+		left: 145px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.hero-image {
+		left: 132px;
+		top: 180px;
+		height: 645px;
+		width: 415px;
+	}
+
+	.top-banner-section {
+		.banner-image {
+			height: 335px;
+			img {
+				width: calc(100% + 5px);
+				height: 400px;
+			}
+		}
+	}
+	.download-btn {
+		width: 230px;
+		height: 55px;
+		font-size: 21px;
+	}
+
+	.faqs-section {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		.faqs-content-wrapper {
+			.faqs-content {
+				p {
+					font-size: 18px;
+				}
+				.block {
+					width: 32px;
+					height: 32px;
+					margin-top: 10px;
+					margin-left: 20px;
+					span {
+						padding: 5px;
+						&:nth-last-child(1) {
+							padding: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.top-banner-section {
+		.banner-contant {
+			input {
+				width: 373px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	.title {
+		font-size: 45px;
+	}
+
+	.privacy-wrapper {
+		margin-top: 40px;
+		margin-bottom: 80px;
+		.info-wrapper {
+			margin-top: 40px;
+			h3 {
+				font-size: 20px;
+			}
+		}
+	}
+
+	.about-wrapper {
+		margin: 40px 0px 80px 0px;
+	}
+
+	.terms-condition-wrapper {
+		margin-top: 40px;
+		.info-wrapper {
+			margin-top: 40px;
+			h3 {
+				font-size: 18px;
+			}
+			p {
+				line-height: 28px;
+				font-size: 14px;
+			}
+		}
+		.terms-wrapper {
+			h2 {
+				font-size: 14px;
+			}
+			h3 {
+				font-size: 18px;
+			}
+			p {
+				font-size: 16px;
+			}
+		}
+	}
+
+	.breadcrumb {
+		li {
+			font-size: 16px;
+		}
+	}
+
+	.contact-us-wrapper {
+		.form-wrapper {
+			max-width: 400px;
+		}
+	}
+
+	.stepper-item {
+		.completed {
+			&::after {
+				width: 567px;
+				top: 293px;
+				left: -217px;
+			}
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 250px;
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.stepper-item {
+						&::after {
+							width: 400px;
+						}
+					}
+				}
+			}
+		}
+		.mobile-image-wrapper {
+			.mobile-image {
+				.slick-slider {
+					.slick-list {
+						width: 208px;
+						height: 454px;
+						top: -575px;
+						right: -98px;
+					}
+					.download-step {
+						.download-image {
+							width: 208px;
+							height: 454px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.stepper-wrapper {
+				.play-stepper-item {
+					&::after {
+						left: 105px;
+						width: 340px;
+					}
+				}
+			}
+		}
+	}
+
+	.winning-section {
+		.withdrow {
+			min-height: 200px;
+			margin: 0;
+			margin-top: 20px;
+			h1 {
+				font-size: 35px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.footer-sms-flex-wrap {
+		flex-direction: column;
+	}
+	.sms-input,
+	.smslink-btn,
+	.footer-btn-margin {
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.upcomming-section {
+		margin-top: 0;
+		.game-image {
+			width: 96%;
+		}
+		h1 {
+			font-size: 25px;
+		}
+		.arrow {
+			width: 30px;
+			height: 30px;
+			padding-right: 5px;
+		}
+		.slick-next {
+			right: 12px;
+		}
+		.slick-prev {
+			right: 50px;
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.stepper-item {
+						&::after {
+							width: 360px;
+						}
+					}
+				}
+				.install-step {
+					.stepper-steps {
+						height: 165px;
+						.install-step-img {
+							width: 55px;
+							height: 60px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.play-step {
+				.stepper-steps {
+					img {
+						width: 55px;
+						height: 60px;
+					}
+				}
+			}
+		}
+	}
+
+	.upcomming-section {
+		.slick-prev {
+			top: -60px;
+		}
+		.slick-next {
+			top: -60px;
+		}
+	}
+
+	.top-banner-section {
+		.banner-image {
+			height: 270px;
+			img {
+			}
+		}
+	}
+
+	.benifits-section {
+		.benifit-icons-wrapper {
+			.benifits-icons {
+				width: 83px;
+				height: 83px;
+			}
+		}
+	}
+
+	.hero-image {
+		left: 119px;
+		top: 345px;
+		height: 261px;
+	}
+
+	.benifits-section {
+		.benifit-icons-wrapper {
+			.benifits-icons {
+				width: 83px;
+				height: 83px;
+			}
+		}
+	}
+
+	.refund-title {
+		font-size: 43px;
+	}
+
+	.refund-wrapper {
+		margin-top: 40px;
+		margin-bottom: 80px;
+	}
+
+	.refer-earn-step-wrapper {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 45px;
+		.step-card {
+			width: 50%;
+			&:first-child {
+				margin-right: 0px;
+				margin-bottom: 40px;
+			}
+		}
+
+		.top-banner-section {
+			.banner-image {
+				height: auto;
+				img {
+					height: auto;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.hero-image {
+		left: 85px;
+		top: 330px;
+		height: 265px;
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.stepper-wrapper {
+				.play-stepper-item {
+					&::after {
+						left: 90px;
+						width: 320px;
+					}
+				}
+			}
+		}
+	}
+
+	.upcomming-section {
+		.upcoming--title {
+			margin-bottom: 40px;
+		}
+		.refer-slider {
+			.arrow {
+				width: 20px;
+				height: 20px;
+			}
+			.slick-prev,
+			.slick-next {
+				top: -18px;
+			}
+			.slick-next {
+				right: 0px;
+			}
+			.slick-prev {
+				right: 24px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.terms-condition-wrapper {
+		.info-wrapper {
+			ol {
+				padding: 0px 10px;
+			}
+			ul {
+				padding: 0px 10px;
+			}
+			li {
+				font-size: 14px;
+				line-height: 24px;
+			}
+		}
+		.terms-wrapper {
+			ul {
+				padding: 0px 10px;
+			}
+			li {
+				font-size: 14px;
+				line-height: 28px;
+			}
+		}
+	}
+
+	.footer-section {
+		.app-link {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			.footer-input {
+				width: 300px;
+				margin-right: 0px;
+			}
+			.btn {
+				margin-top: 30px;
+				font-size: 16px;
+			}
+		}
+	}
+
+	.stepper-item {
+		.completed {
+			&::after {
+				width: 602px;
+				top: 310px;
+				left: -235px;
+			}
+		}
+	}
+
+	.refund-title {
+		font-size: 43px;
+	}
+
+	.refund-wrapper {
+		margin-top: 40px;
+		margin-bottom: 80px;
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.stepper-wrapper {
+				.play-stepper-item {
+					&::after {
+						width: 290px;
+						top: 17px;
+					}
+
+					svg {
+						width: 36px;
+						height: 36px;
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.stepper-item {
+						&::after {
+							width: 325px;
+							top: 18px;
+						}
+						svg {
+							width: 36px;
+							height: 36px;
+						}
+					}
+				}
+				.install-step {
+					.stepper-steps {
+						.stepper-steps-content {
+							padding-top: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.winning-section {
+		.withdrow {
+			min-height: 170px;
+			border-radius: 20px;
+			h1 {
+				font-size: 30px;
+			}
+
+			.payment-wrapper {
+				.icon-wrapper {
+					width: 60px;
+					height: 60px;
+					.upi,
+					.banktransfer {
+						width: 50%;
+					}
+				}
+			}
+		}
+		.refer-earn {
+			p {
+				line-height: 22px;
+				font-size: 14px;
+			}
+		}
+	}
+
+	.contact-us-wrapper {
+		.form-wrapper {
+			max-width: 370px;
+		}
+		.address-detail-wrapper {
+			h4 {
+				line-height: 30px;
+			}
+			p {
+				line-height: 25px;
+			}
+		}
+	}
+
+	.hero-image {
+		left: 115px;
+		width: 359px;
+		height: 261px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.hero-image {
+		left: 90px;
+		top: 390px;
+		width: 359px;
+		height: 245px;
+	}
+	.winning-section {
+		h1 {
+			line-height: 30px;
+		}
+		.payment-icon {
+			.icon-wrapper {
+				width: 60px;
+				height: 60px;
+				.upi,
+				.banktransfer {
+					width: 40px;
+					height: 40px;
+				}
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.mobile-image-wrapper {
+				.mobile-image {
+					.bg-circle {
+						width: 430px;
+					}
+				}
+			}
+		}
+	}
+	.how-to-play-wrapper {
+		.mobile-image-wrapper {
+			.mobile-image {
+				.slick-slider {
+					.slick-list {
+						top: -498px;
+						right: -139px;
+					}
+				}
+				.bg-circle {
+					width: 430px;
+					height: 430px;
+				}
+			}
+		}
+	}
+	.top-banner-section .banner-image img {
+		width: calc(100% + 12px);
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.hero-image {
+		left: 65px;
+		top: 360px;
+		width: 348px;
+		height: 284px;
+	}
+
+	.top-banner-section {
+		.banner-contant {
+			input {
+				width: 250px;
+				height: 45px;
+			}
+			h3 {
+				font-size: 20px;
+			}
+			h1 {
+				font-size: 30px;
+			}
+			.bonus-text {
+				font-size: 14px;
+			}
+		}
+		.button-wrapper {
+			flex-direction: column;
+			.download-btn {
+				margin-right: 0px;
+			}
+			.pulse {
+				margin: 0 auto;
+			}
+		}
+	}
+
+	.contact-us-wrapper {
+		.form-wrapper {
+			max-width: 300px;
+		}
+	}
+
+	.privacy-wrapper {
+		.info-wrapper {
+			h3 {
+				font-size: 14px;
+			}
+			p {
+				font-size: 13px;
+			}
+		}
+	}
+
+	.footer-section {
+		.footer-top-wrapper {
+			.policy-wrapper {
+				.footer-link-wrapper {
+					width: 30%;
+					p {
+						margin-bottom: 15px;
+					}
+					ul {
+						margin: 10px 0;
+						li {
+							margin-bottom: 10px;
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+		.footer-bottom-wrapper {
+			flex-direction: column;
+			margin-bottom: 20px;
+			.address {
+				padding: 0px;
+			}
+		}
+		.download-btn {
+			font-size: 18px;
+			.download-icon {
+				width: 32px;
+				height: 30px;
+			}
+		}
+	}
+
+	.about-wrapper {
+		margin: 40px 0px;
+		.about-content {
+			font-size: 15px;
+		}
+		.core-value-wrapper {
+			font-size: 15px;
+			:last-child {
+				font-size: 16px;
+			}
+		}
+		.goal {
+			p {
+				font-size: 15px;
+			}
+		}
+	}
+
+	.refund-title {
+		font-size: 30px;
+	}
+
+	.refund-wrapper {
+		h2 {
+			font-size: 20px;
+			margin-top: 40px;
+		}
+	}
+
+	.title {
+		font-size: 35px;
+	}
+
+	.terms-condition-wrapper {
+		.info-wrapper {
+			text-align: start;
+			h3 {
+				font-size: 15px;
+			}
+
+			p {
+				line-height: 24px;
+			}
+		}
+		.terms-wrapper {
+			text-align: start;
+			p {
+				font-size: 14px;
+			}
+			li {
+				font-size: 14px;
+			}
+			h2 {
+				line-height: 24px;
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.how-to-install-img-wrapper {
+				margin-top: 50px !important;
+			}
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.stepper-item {
+						&::after {
+							width: 280px;
+						}
+					}
+				}
+			}
+			.mobile-image-wrapper {
+				.mobile-image {
+					.bg-circle {
+						width: 400px;
+						height: 400px;
+					}
+					.mobile {
+						margin-top: -150px !important;
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		.mobile-image-wrapper {
+			.mobile-image {
+				.slick-slider {
+					.slick-list {
+						top: -496px;
+						right: -139px;
+					}
+				}
+				.bg-circle {
+					width: 400px;
+					height: 400px;
+
+					.mobile {
+						margin-top: -107px;
+					}
+				}
+			}
+		}
+		.play-step-wrapper {
+			.stepper-wrapper {
+				.play-stepper-item {
+					&::after {
+						left: 80px;
+						width: 250px;
+					}
+				}
+			}
+		}
+	}
+
+	.refer-earn-step-wrapper {
+		.step-card {
+			width: 65%;
+		}
+	}
+	.how-to-install-section .how-to-install-wrapper .mobile-image-wrapper .mobile-image .slick-slider .download-step .download-image {
+		// margin-top: 60px !important;
+		// height: auto !important;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.top-banner-section .banner-image img {
+		width: calc(100% + 0px);
+		height: 282px;
+	}
+}
+
+@media only screen and (max-width: 415px) {
+	.winning-section {
+		.withdrow {
+			min-height: 140px;
+			h1 {
+				font-size: 25px;
+			}
+			.payment-wrapper {
+				.icon-wrapper {
+					width: 50px;
+					height: 50px;
+				}
+
+				.payment-icon {
+					p {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+		.refer-earn {
+			height: 130px;
+			p {
+				padding-top: 0px;
+			}
+		}
+	}
+
+	.stepper-item {
+		.completed {
+			&::after {
+				width: 662px;
+				top: 338px;
+				left: -264px;
+			}
+		}
+	}
+
+	.hero-image {
+		left: 90px;
+		top: 365px;
+		width: 310px;
+	}
+
+	.how-to-play-wrapper {
+		.play-step-wrapper {
+			.play-step {
+				.stepper-steps {
+					width: calc(100% - 20px) !important;
+				}
+			}
+		}
+		.mobile-image-wrapper {
+			.mobile-image {
+				.download-app-img {
+					.play-download-img {
+						width: 255px;
+						height: 550px;
+					}
+				}
+				.slick-slider {
+					.slick-list {
+						width: 255px;
+						top: -443px;
+						right: -128px;
+						height: 550px;
+					}
+				}
+				.bg-circle {
+					width: 350px;
+					height: 350px;
+
+					.mobile {
+						width: 275px;
+						margin-top: -130px;
+					}
+				}
+			}
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.how-to-install-img-wrapper {
+				margin-top: 80px !important;
+			}
+			.mobile-image-wrapper {
+				.mobile-image {
+					.bg-circle {
+						width: 340px;
+						height: 340px;
+						margin-top: 103px;
+						.mobile {
+							width: 275px;
+							margin-top: -210px !important;
+						}
+					}
+					.slick-slider {
+						.slick-list {
+							width: 248px;
+							height: 542px;
+							top: -510px;
+							right: -124px;
+						}
+						.download-step {
+							.download-image {
+								width: 248px;
+								height: 542px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.contact-us-wrapper {
+		.form-wrapper {
+			max-width: 250px;
+		}
+	}
+
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.stepper-wrapper {
+					.stepper-item {
+						&::after {
+							width: 235px;
+						}
+					}
+				}
+				.install-step {
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+
+	.how-to-play-wrapper {
+		margin-bottom: 170px;
+		.play-step-wrapper {
+			.stepper-wrapper {
+				.play-stepper-item {
+					&::after {
+						left: 65px;
+						width: 225px;
+					}
+				}
+			}
+			.play-step {
+				margin-left: 0px;
+				.stepper-steps {
+					height: 240px;
+					padding: 15px 0px;
+				}
+			}
+		}
+	}
+
+	.winning-section {
+		.withdrow {
+			h1 {
+				font-size: 20px;
+			}
+		}
+		.refer-earn {
+			p {
+				line-height: 16px;
+			}
+		}
+	}
+
+	.upcomming-section {
+		.game-image {
+			width: 96%;
+		}
+	}
+
+	.hero-image {
+		left: 145px;
+		width: 213px;
+		height: 245px;
+	}
+
+	.benifits-section {
+		.benifit-icons-wrapper {
+			.slick-slider {
+				width: 350px;
+			}
+		}
+		.payment-wrapper {
+			.icon-wrapper {
+				margin-left: 20px;
+			}
+		}
+	}
+	.font-size-26 {
+		font-size: 20px;
+	}
+	.sms-input {
+		width: 300px;
+		height: 40px;
+	}
+	.top-banner-section {
+		padding-top: 0px;
+		.banner-contant {
+			.font-size-50 {
+				font-size: 30px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 375px) {
+	.benifits-section .payment-wrapper .icon-wrapper {
+		margin-left: 45px;
+	}
+}
+@media only screen and (max-width: 370px) {
+	.how-to-install-section {
+		.how-to-install-wrapper {
+			.install-step-wrapper {
+				.install-step {
+					h5 {
+						font-size: 20px;
+					}
+
+					.stepper-steps {
+						div {
+							margin-left: 0px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.top-banner-section .download-btn {
+		margin-right: 20px;
+		width: 180px;
+	}
+	.download-btn {
+	}
+}
+
+@media only screen and (max-width: 340px) {
+	.contact-us-wrapper {
+		.form-wrapper {
+			max-width: 210px;
+		}
+	}
+	.stepper-item.completed::after {
+		width: 704px;
+		top: 357px;
+		left: -286px;
+	}
+	.contact-us-wrapper {
+		.address-detail-wrapper {
+			svg {
+				width: 20px;
+			}
+		}
+	}
+	.how-to-install-section .how-to-install-wrapper .mobile-image-wrapper .mobile-image .bg-circle {
+		width: 315px;
+		height: 315px;
+		.mobile {
+			margin-top: -235px !important;
+		}
+	}
+	.top-banner-section .banner-image img {
+		width: calc(100% + 0px);
+		height: 220px;
+	}
+	.benifits-section .payment-wrapper .icon-wrapper {
+		margin-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 321px) {
+	.top-banner-section .banner-image img {
+		width: calc(100% + 20px);
+		height: 220px;
+	}
+	.how-to-install-section .how-to-install-wrapper .mobile-image-wrapper .mobile-image .bg-circle {
+		width: 315px;
+		height: 315px;
+	}
+}

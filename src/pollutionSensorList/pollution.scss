@@ -1,0 +1,45 @@
+
+.table{
+    border: 1px solid black;
+    // display: flex;
+    border-radius: 30px;
+    margin-left: 10px;
+    width: 97%;
+    background-color: rgb(152 188 188);
+   tr,thead{
+    border: 1px solid black;
+    }
+}
+.card{
+    width: calc(100% - 50px);
+    background-color: rgb(192, 192, 192);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.table-caption{
+    color: black;
+    font-weight: 700;
+}
+.font-size-12{
+    font-size: 18px;
+}
+.width-100{
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;}
+#search-box{
+    width: 14%;
+    height: 50px;
+    border-radius: 15px;
+}
+.justify-content--space-between{
+    justify-content: space-between;
+}
+.color-balck{
+    color: black;
+}
+.mt-30{
+    margin-top: 30px;
+}
