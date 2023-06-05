@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
 import { Line } from 'react-chartjs-2';
+import humidity from "../../../assets/images/clockhumidity.png";
 // import { ChartData, ChartOptions } from 'chart.js/auto';
 import '../../css/home.scss';
 
@@ -15,7 +16,7 @@ interface WeatherData {
 }
 interface ForecastData {
   list :[{dt_txt:string,
-          main:{temp:number},
+          main:{temp:number,humidity:number},
           wind:{speed:number}}]
 }
 const WeatherApp: React.FC = () => {
@@ -141,12 +142,17 @@ const WeatherApp: React.FC = () => {
           {forecastData?.list?.map((item)=> 	<>
           <div className="section">
 		<div className="weather-description">
-			<div id="weather-info">
-      <p className='flex justify-content--around'>Temp <span>{item?.main?.temp}</span> </p>
-      <p className='flex justify-content--around'>date  <span>{item?.dt_txt.split(' ')[0]}</span> </p>
-      <p className='flex justify-content--around'>Time  <span>{item?.dt_txt.split(' ')[1]}</span> </p>
-
-      <p className='flex justify-content--around'>wind speed <span>{item?.wind?.speed}</span> </p>
+            <div className='flex flex--column align-items--center justify-content--center'>
+            <div className='font--extra-bold'>{item?.dt_txt.split(' ')[0]}</div>
+            <div className='font--extra-bold'>{item?.dt_txt.split(' ')[1]}</div>
+            </div>
+			<div className="weather-info flex justify-content--evenly">
+        <div className='inner-div'>
+      <p className='flex flex--column justify-content--center align-items--center mt--10 font--bold'><i className="fa fa-cloud-moon-rain"></i> <h5 className="mt--10">{(parseInt(String(item?.main?.temp)))}°C</h5> </p>
+      </div>
+      <div className='inner-div'>
+      <p className='flex flex--column justify-content--center align-items--center mt--10 font--bold'><span><img src={humidity} width='35px'/></span><h5>{item?.main?.humidity}%</h5> </p>
+      </div>
                 {/* <img src="https://e7.pngegg.com/pngimages/955/496/png-clipart-sun-and-cloud-digital-illustration-weather-forecasting-rain-icon-shower-weather-icon-material-company-cloud.png" alt="" width='90px' height='90px'>
               </img>	 */}
 			</div>	
