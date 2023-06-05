@@ -4,14 +4,14 @@ import React from 'react';
 import logo from 'assets/images/logo.jpg';
 
 import withRouter from './withRouter';
+import Header from 'shared/components/header/header';
+import WeatherApp from 'features/weatherTemp/contianer/home';
 const Layout: React.FC<React.PropsWithChildren> = (props) => {
 	return (
 		<>
-			<div className='header position--fixed width--full flex justify-content--center align-items--center bg--grey-500'>
 				<div className='header-logo flex align-items--center justify-content--center cursor--pointer'>
-					<img className='logo height--full border-radius--half' src={logo} alt='/next-edge-logo' />
+				{/* <Header/> */}
 				</div>
-			</div>
 			{props.children}
 		</>
 	);

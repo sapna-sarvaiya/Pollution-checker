@@ -9,5 +9,5 @@ function withRouter(Children: any) {
 		return <Children {...props} match={match} navigate={navigate} location={location} />;
 	};
 }
-
+		
 export default withRouter;

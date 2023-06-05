@@ -1,4 +1,4 @@
 const Header: React.FC = () => {
-	return <div></div>;
+	return <div>WEather App</div>;
 };
 export default Header;

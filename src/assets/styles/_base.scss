@@ -12,7 +12,13 @@
 body {
 	@include margin(0);
 	@include padding(0);
-	background-color: $black;
+	// background-color: $black;
+	// background-image: url('../images/darkclouds.jpg');
+	// background-size: cover;
+	// background-attachment: fixed;
+	// background-repeat: no-repeat;
+	// width: 100%;
+	// height: 100%;
 	font-size: $font-size-browser-default;
 	font-weight: $font-regular;
 	color: $white;
