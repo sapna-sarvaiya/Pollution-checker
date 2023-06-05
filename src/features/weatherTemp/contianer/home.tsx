@@ -13,10 +13,15 @@ interface WeatherData {
   coord: { lat: number, lon: number }
   name: string;
 }
-
+interface ForecastData {
+  list :[{dt_txt:string,
+          main:{temp:number},
+          wind:{speed:number}}]
+}
 const WeatherApp: React.FC = () => {
   const [cityName, setCityName] = useState('ahmedabad');
   const [weatherData, setWeatherData] = useState<WeatherData>({} as WeatherData);
+  const [forecastData, setForeCastData] = useState<ForecastData>({} as ForecastData);
   const [error, setError] = useState<string | null>(null);
   const d = new Date();
   const dateFormat =
@@ -24,7 +29,8 @@ const WeatherApp: React.FC = () => {
     d.getMinutes()].join(':');
   console.log(`temperatureData`, weatherData)
   useEffect(() => {
-    getTemperatureData()
+
+    getTemperatureData();
   }, []);
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setCityName(event.target.value);
@@ -44,6 +50,7 @@ const WeatherApp: React.FC = () => {
         const data: WeatherData = response.data;
         console.log(`response`, response)
         setWeatherData(data);
+    getForecastData();
       })
       .catch((error) => {
         toast.error(" please enter valid city");
@@ -51,13 +58,23 @@ const WeatherApp: React.FC = () => {
       });
   };
 
+  const getForecastData = () => {
+    axios .get<ForecastData>(`https://api.openweathermap.org/data/2.5/forecast?&q=${cityName}&units=metric&appid=35529732c40e184ca9f1121b0bf00dc8`).then((response)=> {
+      console.log(`forcast response`, response)
+      const data: ForecastData = response.data;
+        console.log(`response`, response)
+        setForeCastData(data);
+    })
+  }
+
   return (
 
-    <div>
+    <div className='background'>
+      <div className='flex'>
       <div className="container">
-        <div id="pot">
+        {/* <div id="pot">
           <img src="https://i.stack.imgur.com/qgNyF.png?s=328&g=1" width="100px" height="100px" />
-        </div>
+        </div> */}
         <form onSubmit={handleSubmit}>
           <div className="searchBox">
             <input type="search"
@@ -75,6 +92,8 @@ const WeatherApp: React.FC = () => {
           />
           <button type="submit" className='cursor-pointer search-btn '>Search</button> */}
         </form>
+        <div className='flex justify-content--around'>
+
         <div className="mid">
           <div className="corner_text">
             <p>N</p>
@@ -87,6 +106,7 @@ const WeatherApp: React.FC = () => {
             <p>|</p>
           </div>
         </div>
+    </div>
         <div className="data">
           <div className="cel">
             <h4>{weatherData?.weather?.[0].description}</h4>
@@ -102,21 +122,37 @@ const WeatherApp: React.FC = () => {
             </div>
             <div className="cloud">
               <img src="https://e7.pngegg.com/pngimages/955/496/png-clipart-sun-and-cloud-digital-illustration-weather-forecasting-rain-icon-shower-weather-icon-material-company-cloud.png" alt="">
-              </img>	</div>
+              </img>	
+              </div>
             <div className="min">
               <p className='flex flex--column'>lon <span>{weatherData?.coord?.lon}</span> </p>
               <hr />
               <p>Pressur <span>{weatherData?.main?.pressure}mm</span></p>
             </div>
           </div>
-
           <div className="bottom">
             <p className='flex flex--column'>Wind speed <span>{((weatherData?.wind?.speed) * 3.6).toFixed(4)} km/h</span></p>
             <h2>{weatherData.name}</h2>
           </div>
         </div>
+ 
       </div >
+       <div className='forecast-list'>
+          {forecastData?.list?.map((item)=> 	<>
+          <div className="section">
+		<div className="weather-description">
+			<div id="weather-info">
+      <p className='flex justify-content--around'>Temp <span>{item?.main?.temp}</span> </p>
+      <p className='flex justify-content--around'>date  <span>{item?.dt_txt.split(' ')[0]}</span> </p>
+      <p className='flex justify-content--around'>Time  <span>{item?.dt_txt.split(' ')[1]}</span> </p>
 
+      <p className='flex justify-content--around'>wind speed <span>{item?.wind?.speed}</span> </p>
+                {/* <img src="https://e7.pngegg.com/pngimages/955/496/png-clipart-sun-and-cloud-digital-illustration-weather-forecasting-rain-icon-shower-weather-icon-material-company-cloud.png" alt="" width='90px' height='90px'>
+              </img>	 */}
+			</div>	
+		</div></div></>
+  )}
+	  </div>
       {error && <p>{error}</p>}
 
       {/* {temperatureData ? (
@@ -127,6 +163,7 @@ const WeatherApp: React.FC = () => {
         <p>No temperature data available.</p>
       )} */}
     </div >
+    </div>
   );
 };
 
