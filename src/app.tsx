@@ -4,13 +4,15 @@ import 'assets/styles/app.scss';
 
 import Layout from 'hoc/layout';
 import WeatherApp from 'features/weatherTemp/contianer/home';
+import { Toaster } from 'react-hot-toast';
+import WeatherChart from 'features/chart/chartData';
 
 function App() {
 	return (
-		<Layout>
-			<Routes>
-				<Route path='/' element={<WeatherApp />} />
-			</Routes>
+		<Layout className="flex">
+			<WeatherApp />
+			{/* <WeatherChart /> */}
+			<Toaster />
 		</Layout>
 	);
 }
