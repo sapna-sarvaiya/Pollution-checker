@@ -7,6 +7,8 @@ import  ChartApp  from 'features/chart/chartData';
 import humidity from "../../../assets/images/clockhumidity.png";
 // import { ChartData, ChartOptions } from 'chart.js/auto';
 import '../../css/home.scss';
+import WeatherChart from 'features/chart/chartData';
+import { IWeatherChartData } from '../interface/forecast.interface';
 
 
 interface WeatherData {
@@ -16,15 +18,15 @@ interface WeatherData {
   coord: { lat: number, lon: number }
   name: string;
 }
-interface ForecastData {
-  list :[{dt_txt:string,
-          main:{temp:number,humidity:number},
-          wind:{speed:number}}]
-}
+// export interface ForecastData {
+//   list :[{dt_txt:string,
+//           main:{temp:number,humidity:number},
+//           wind:{speed:number}}]
+// }
 const WeatherApp: React.FC = () => {
   const [cityName, setCityName] = useState('ahmedabad');
   const [weatherData, setWeatherData] = useState<WeatherData>({} as WeatherData);
-  const [forecastData, setForeCastData] = useState<ForecastData>({} as ForecastData);
+  const [forecastData, setForeCastData] = useState<IWeatherChartData[]>([]);
   const [error, setError] = useState<string | null>(null);
   const d = new Date();
   const dateFormat =
@@ -62,13 +64,13 @@ const WeatherApp: React.FC = () => {
   };
 
   const getForecastData = () => {
-    axios .get<ForecastData>(`https://api.openweathermap.org/data/2.5/forecast?&q=${cityName}&units=metric&appid=35529732c40e184ca9f1121b0bf00dc8`).then((response)=> {
-      console.log(`forcast response`, response)
-      const data: ForecastData = response.data;
-        console.log(`response`, response)
-        setForeCastData(data);
+    axios .get<IWeatherChartData[]>(`https://api.openweathermap.org/data/2.5/forecast?&q=${cityName}&cnt=10&units=metric&appid=35529732c40e184ca9f1121b0bf00dc8`).then((response)=> {
+      const data: IWeatherChartData[] = response.data?.list;
+      
+      setForeCastData(data);
     })
   }
+  console.log(`forcast response`, forecastData)
 
   return (
 
@@ -143,6 +145,10 @@ const WeatherApp: React.FC = () => {
         </div>
  
       </div >
+      <div>
+      {forecastData.length>0 &&
+      <WeatherChart data={forecastData}/>}
+      </div>
        <div className='forecast-list flex'>
           {forecastData?.list?.map((item)=> 	<>
           <div className="section">
@@ -158,21 +164,11 @@ const WeatherApp: React.FC = () => {
       <div className='inner-div'>
       <p className='flex flex--column justify-content--center align-items--center mt--10 font--bold'><span><img src={humidity} width='35px'/></span><h5>{item?.main?.humidity}%</h5> </p>
       </div>
-                {/* <img src="https://e7.pngegg.com/pngimages/955/496/png-clipart-sun-and-cloud-digital-illustration-weather-forecasting-rain-icon-shower-weather-icon-material-company-cloud.png" alt="" width='90px' height='90px'>
-              </img>	 */}
 			</div>	
 		</div></div></>
   )}
 	  </div>
       {error && <p>{error}</p>}
-
-      {/* {temperatureData ? (
-        <div>
-          <Line data={temperatureData} options={{} as ChartOptions<"line">} /> 
-        </div>
-      ) : (
-        <p>No temperature data available.</p>
-      )} */}
     </div >
     </div>
   );
