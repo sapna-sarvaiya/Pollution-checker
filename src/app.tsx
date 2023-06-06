@@ -5,12 +5,13 @@ import 'assets/styles/app.scss';
 import Layout from 'hoc/layout';
 import WeatherApp from 'features/weatherTemp/contianer/home';
 import { Toaster } from 'react-hot-toast';
-import WeatherChart from 'features/chart/chartData';
+import  ChartApp  from 'features/chart/chartData';
 
 function App() {
 	return (
 		<Layout className="flex">
 			<WeatherApp />
+			{/* <ChartApp/> */}
 			{/* <WeatherChart /> */}
 			<Toaster />
 		</Layout>

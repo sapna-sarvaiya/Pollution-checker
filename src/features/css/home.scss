@@ -69,9 +69,10 @@
 }
 
 .forecast-list{
-  height: 900px;
-  overflow: auto;
-  margin-left: 8%;
+  // height: 900px;
+  overflow-y: auto;
+  margin-left: 10px;
+  height: 800px;
 }
 
 .searchBox input::placeholder {
@@ -94,35 +95,11 @@
     margin-left: -62px; 
   }
 
-// .searchBox{
-//   &:hover input{
-//     width: 240px;
-//     opacity: 1;
-//     padding: 10px 20px;
-// }}
+  .chart-width{
+    width: 400px;
+    height: 900px;
+  }
 
-// .searchBox {&:hover i{
-//     color: #fff;}
-//  }
-
-#pot {
-  bottom: 15%;
-  position: absolute;
-  animation: linear infinite;
-  animation-name: run;
-  animation-duration: 5s;
-}
-@keyframes run {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: 100%;
-  }
-  100% {
-    left: 0;    
-  }
-}
 .background{
   background-image: url('https://images.unsplash.com/photo-1566437036079-0e00cc9ea796?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjAwNjA4NDI&ixlib=rb-1.2.1&q=80');
     background-position: center center;

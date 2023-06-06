@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
 import { Line } from 'react-chartjs-2';
+import  ChartApp  from 'features/chart/chartData';
+
 import humidity from "../../../assets/images/clockhumidity.png";
 // import { ChartData, ChartOptions } from 'chart.js/auto';
 import '../../css/home.scss';
@@ -71,7 +73,10 @@ const WeatherApp: React.FC = () => {
   return (
 
     <div className='background'>
-      <div className='flex'>
+      {/* <div className='flex'>
+        <ChartApp/>
+        </div> */}
+      <div className='flex flex--column'>
       <div className="container">
         {/* <div id="pot">
           <img src="https://i.stack.imgur.com/qgNyF.png?s=328&g=1" width="100px" height="100px" />
@@ -138,7 +143,7 @@ const WeatherApp: React.FC = () => {
         </div>
  
       </div >
-       <div className='forecast-list'>
+       <div className='forecast-list flex'>
           {forecastData?.list?.map((item)=> 	<>
           <div className="section">
 		<div className="weather-description">
