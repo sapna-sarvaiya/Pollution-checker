@@ -7,7 +7,8 @@ export interface IWeatherChartData {
     visibility: number
     pop: number
     sys: ISys
-    dt_txt: string
+    dt_txt: string;
+    list: Record<string, any>
 }
 
 export interface IMain {

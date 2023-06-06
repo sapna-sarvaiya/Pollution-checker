@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import toast, { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
 import axios from 'axios';
 
 import humidity from "../../../assets/images/clockhumidity.png";
@@ -19,13 +19,9 @@ const WeatherApp: React.FC = () => {
   const [cityName, setCityName] = useState('ahmedabad');
   const [weatherData, setWeatherData] = useState<WeatherData>({} as WeatherData);
   const [forecastData, setForeCastData] = useState<IWeatherChartData[]>([]);
-  const [error, setError] = useState<string | null>(null);
-  const d = new Date();
-  const dateFormat =
-    [d.getHours(),
-    d.getMinutes()].join(':');
-  useEffect(() => {
+  // const [error, setError] = useState<string | null>(null);
 
+  useEffect(() => {
     getTemperatureData();
   }, []);
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -53,10 +49,8 @@ const WeatherApp: React.FC = () => {
   };
 
   const getForecastData = () => {
-    axios.get<IWeatherChartData[]>(`https://api.openweathermap.org/data/2.5/forecast?&q=${cityName}&cnt=10&units=metric&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_APP_ID}`).then((response) => {
-
+    axios.get<IWeatherChartData[]>(`https://api.openweathermap.org/data/2.5/forecast?&q=${cityName}&cnt=10&units=metric&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_APP_ID}`).then((response: any) => {
       const data: IWeatherChartData[] = response.data.list;
-
       setForeCastData(data);
     })
   }
@@ -122,13 +116,10 @@ const WeatherApp: React.FC = () => {
           </div>
 
         </div >
-
-
-        {error && <p>{error}</p>}
       </div >
       <div className='forecast-list flex'>
-        {forecastData?.map((item) => <>
-          <div className="section">
+        {forecastData?.map((item, index) =>
+          <div className="section" key={index}>
             <div className="weather-description">
               <div className='flex flex--column align-items--center justify-content--center'>
                 <div className='font--extra-bold'>{item?.dt_txt.split(' ')[0]}</div>
@@ -136,13 +127,13 @@ const WeatherApp: React.FC = () => {
               </div>
               <div className="weather-info flex justify-content--evenly">
                 <div className='inner-div'>
-                  <p className='flex flex--column justify-content--center align-items--center mt--10 font--bold'><i className="fa fa-cloud-moon-rain"></i> <h5 className="mt--10">{(parseInt(String(item?.main?.temp)))}°C</h5> </p>
+                  <div className='flex flex--column justify-content--center align-items--center mt--10 font--bold'><i className="fa fa-cloud-moon-rain"></i> <h5 className="mt--10">{(parseInt(String(item?.main?.temp)))}°C</h5> </div>
                 </div>
                 <div className='inner-div ml--10'>
-                  <p className='flex flex--column justify-content--center align-items--center mt--10 font--bold'><span><img src={humidity} width='35px' /></span><h5>{item?.main?.humidity}%</h5> </p>
+                  <div className='flex flex--column justify-content--center align-items--center mt--10 font--bold'><span><img src={humidity} alt='Humidity' width='35px' /></span><h5>{item?.main?.humidity}%</h5> </div>
                 </div>
               </div>
-            </div></div></>
+            </div></div>
         )}
       </div>
     </div>
