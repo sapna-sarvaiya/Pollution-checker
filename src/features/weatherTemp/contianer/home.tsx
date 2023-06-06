@@ -41,7 +41,7 @@ const WeatherApp: React.FC = () => {
   console.log(`weatherData`, weatherData)
   const getTemperatureData = () => {
     axios
-      .get<WeatherData>(`https://api.openweathermap.org/data/2.5/weather?&q=${cityName}&units=metric&appid=35529732c40e184ca9f1121b0bf00dc8`)
+      .get<WeatherData>(`https://api.openweathermap.org/data/2.5/weather?&q=${cityName}&units=metric&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_APP_ID}`)
       .then((response) => {
 
         const data: WeatherData = response.data;
@@ -56,14 +56,13 @@ const WeatherApp: React.FC = () => {
   };
 
   const getForecastData = () => {
-    axios.get<IWeatherChartData[]>(`https://api.openweathermap.org/data/2.5/forecast?&q=${cityName}&cnt=10&units=metric&appid=35529732c40e184ca9f1121b0bf00dc8`).then((response) => {
-      const data: IWeatherChartData[] = response.data?.list;
+    axios.get<IWeatherChartData[]>(`https://api.openweathermap.org/data/2.5/forecast?&q=${cityName}&cnt=10&units=metric&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_APP_ID}`).then((response) => {
+      console.log('response :>> ', response);
+      const data: IWeatherChartData[] = response.data.list;
 
       setForeCastData(data);
     })
   }
-  console.log(`forcast response`, forecastData)
-
   return (
 
     <div className='background'>
