@@ -24,7 +24,6 @@ const WeatherApp: React.FC = () => {
   const dateFormat =
     [d.getHours(),
     d.getMinutes()].join(':');
-  console.log(`temperatureData`, weatherData)
   useEffect(() => {
 
     getTemperatureData();
@@ -38,14 +37,12 @@ const WeatherApp: React.FC = () => {
     getTemperatureData();
     event.preventDefault();
   };
-  console.log(`weatherData`, weatherData)
   const getTemperatureData = () => {
     axios
       .get<WeatherData>(`https://api.openweathermap.org/data/2.5/weather?&q=${cityName}&units=metric&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_APP_ID}`)
       .then((response) => {
 
         const data: WeatherData = response.data;
-        console.log(`response`, response)
         setWeatherData(data);
         getForecastData();
       })
@@ -57,7 +54,7 @@ const WeatherApp: React.FC = () => {
 
   const getForecastData = () => {
     axios.get<IWeatherChartData[]>(`https://api.openweathermap.org/data/2.5/forecast?&q=${cityName}&cnt=10&units=metric&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_APP_ID}`).then((response) => {
-      console.log('response :>> ', response);
+
       const data: IWeatherChartData[] = response.data.list;
 
       setForeCastData(data);
