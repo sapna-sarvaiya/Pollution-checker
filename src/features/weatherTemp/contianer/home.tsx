@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
-import { Line } from 'react-chartjs-2';
-import ChartApp from 'features/chart/chartData';
 
 import humidity from "../../../assets/images/clockhumidity.png";
-// import { ChartData, ChartOptions } from 'chart.js/auto';
 import '../../css/home.scss';
 import WeatherChart from 'features/chart/chartData';
 import { IWeatherChartData } from '../interface/forecast.interface';
@@ -18,11 +15,6 @@ interface WeatherData {
   coord: { lat: number, lon: number }
   name: string;
 }
-// export interface ForecastData {
-//   list :[{dt_txt:string,
-//           main:{temp:number,humidity:number},
-//           wind:{speed:number}}]
-// }
 const WeatherApp: React.FC = () => {
   const [cityName, setCityName] = useState('ahmedabad');
   const [weatherData, setWeatherData] = useState<WeatherData>({} as WeatherData);
@@ -75,9 +67,6 @@ const WeatherApp: React.FC = () => {
   return (
 
     <div className='background'>
-      {/* <div className='flex'>
-        <ChartApp/>
-        </div> */}
       <div className='flex'>
         <div className='chart'>
 
@@ -85,9 +74,6 @@ const WeatherApp: React.FC = () => {
             <WeatherChart data={forecastData} />}
         </div>
         <div className="container">
-          {/* <div id="pot">
-          <img src="https://i.stack.imgur.com/qgNyF.png?s=328&g=1" width="100px" height="100px" />
-        </div> */}
           <form onSubmit={handleSubmit}>
             <div className="searchBox">
               <input type="search"
@@ -96,14 +82,6 @@ const WeatherApp: React.FC = () => {
                 placeholder="Enter city name" autoFocus required />
               <i className="fa fa-search"></i>
             </div>
-            {/* <input
-            type="text"
-            value={cityName}
-            onChange={handleInputChange}
-            placeholder="Enter city name"
-            className='input-width'
-          />
-          <button type="submit" className='cursor-pointer search-btn '>Search</button> */}
           </form>
           <div className='flex justify-content--around circle'>
 
@@ -123,8 +101,6 @@ const WeatherApp: React.FC = () => {
           <div className="data">
             <div className="cel mt---32">
               <h4>{weatherData?.weather?.[0].description}</h4>
-              {/* <p className="date">{date.getHours}</p> */}
-
               <p className='flex flex--column'><span>{parseInt(String(weatherData?.main?.temp))}°C</span></p>
             </div>
             <div className="max_min">

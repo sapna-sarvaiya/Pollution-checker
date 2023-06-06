@@ -48,13 +48,11 @@ const WeatherChart: React.FC<IProps> = (props) => {
         display: false,
         beginAtZero: true,
         suggestedMax: 40,
-        // Customize the maximum value on the y-axis if needed
       },
       x: {
         ticks: {
           color: '#000000',
         }
-        // Customize the maximum value on the y-axis if needed
       },
     },
     plugins: {
